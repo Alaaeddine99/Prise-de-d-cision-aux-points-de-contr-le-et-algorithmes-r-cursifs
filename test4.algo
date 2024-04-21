@@ -94,13 +94,13 @@ END
 ALGORITHM power
 VAR
     base:INTEGER
-    eponent:INTEGER
+    exponent:INTEGER
 BEGIN
     ecrire(donner une valeur pour la base)
     lire(base)
-    ecrire(donner la valeur pour l eponent)
-    lire(eponent)
-    power(base,eponent)
+    ecrire(donner la valeur pour l exponent)
+    lire(exponent)
+    power(base,exponent)
 END    
 
 
